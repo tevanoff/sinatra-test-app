@@ -1,0 +1,17 @@
+{
+  "name": "sinatra-test-app",
+  "scripts": {},
+  "env": {
+    "TEST_VAR": {
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    }
+  },
+  "addons": [],
+  "buildpacks": []
+}
