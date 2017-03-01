@@ -17,8 +17,7 @@
     "heroku-redis:premium-1",
     "memcachedcloud:30",
     "papertrail:ludvig",
-    "heroku-postgresql:standard-0",
-    "foundelasticsearch:dachs-standard"
+    "heroku-postgresql:standard-0"
   ],
   "buildpacks": []
 }
