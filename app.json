@@ -13,5 +13,18 @@
     }
   },
   "addons": [],
-  "buildpacks": []
+  "buildpacks": [],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "rake test"
+      },
+      "env": {
+        "RACK_ENV": "test"
+      },
+      "buildpacks": [
+        { "url": "https://github.com/heroku/heroku-buildpack-ruby" }
+      ]
+    }
+  }
 }
