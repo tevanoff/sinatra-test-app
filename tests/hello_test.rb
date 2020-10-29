@@ -15,7 +15,7 @@ class MyTest < Minitest::Test
   (1..10).each do |i|
     define_method("test_app#{i}") do
       get '/'
-      sleep 1
+      sleep 10
       assert last_response.ok?
     end
   end
