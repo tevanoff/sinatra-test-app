@@ -3,6 +3,7 @@ gem 'sinatra'
 gem 'rake'
 
 group :test do
+  gem 'minitest'
   gem 'rack-test'
   gem 'rspec'
 end
