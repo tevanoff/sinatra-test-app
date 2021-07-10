@@ -1,2 +1,2 @@
-web: bundle exec ruby hello.rb -p $PORT
 worker: bundle exec sidekiq
+release: ./foo.sh
