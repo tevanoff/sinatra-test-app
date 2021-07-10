@@ -1,6 +1,8 @@
 {
   "name": "sinatra-test-app",
-  "scripts": {},
+  "scripts": {
+    "postdeploy": "bundle exec rake nah"
+  },
   "env": {
     "TEST_VAR": {
       "required": false
