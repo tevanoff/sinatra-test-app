@@ -6,13 +6,10 @@
       "required": false
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "Standard-1X"
-    }
-  },
-  "addons": [],
+  "formation": {},
+  "addons": [
+    "heroku-postgresql:mini"
+  ],
   "buildpacks": [],
   "environments": {
     "test": {
