@@ -16,7 +16,9 @@
       "size": "Standard-1X"
     }
   },
-  "addons": [],
+  "addons": [
+    "heroku-postgresql:mini"
+  ],
   "buildpacks": [],
   "environments": {
     "test": {
