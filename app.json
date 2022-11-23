@@ -9,7 +9,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "Standard-1X"
+      "size": "oops-not-a-size"
     }
   },
   "addons": [],
